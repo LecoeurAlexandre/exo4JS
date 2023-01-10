@@ -1,6 +1,6 @@
 let nb1 = Number(prompt("Veuillez saisir le côté d'un carré en cm : "));
 let perimetre = nb1*4;
-let aire = nb1*2;
+let aire = nb1*nb1;
 
 let msg = `Le périmètre d'un carré de ${nb1}cm de côté est de ${perimetre}cm. L'aire est de ${aire}cm2`;
 console.log(msg);
